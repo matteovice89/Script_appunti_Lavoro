@@ -1,4 +1,3 @@
-'''non è bello, bisognerebbe estrre l'ip in un altro modo ma per procaedere velocemente mi va bene così'''
 import subprocess
 
 f = open('nuovoElenco.txt','r') #apertura file
@@ -12,9 +11,11 @@ for linea in f:
     risultato = subprocess.run(comando, capture_output=True, text=True)
     with open('raggiungibili.txt','a') as ff :
         if risultato.returncode == 0:
-            ff.write(" " + linea + " RAGGIUNGIBILE")
+            scrivi=(linea + " RAGGIUNGIBILE \n")
+            ff.write(scrivi)
         else:
-             ff.write(" " + linea + " NON RAGGIUNGIBILE")
-             print(risultato.stderr)
+             scrivi=(linea + " NON RAGGIUNGIBILE \n")
+             ff.write(scrivi)
 
 f.close()
+
