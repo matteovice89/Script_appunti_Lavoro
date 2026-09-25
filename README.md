@@ -1,2 +1,2 @@
-# Script_appunti_Lavoro
-Alcuni Script che mi sono comodi al lavor
+# Script_appunti
+Alcuni Script che mi sono comodi al lavoro o vita di tutti i giorni
