@@ -1,7 +1,0 @@
-apro con nano (o altri editor) il file etc/network/interfaces
-e applico la seguente modifica: 
-
-source /etc/network/interfaces.d/*
-auto eth0.1999
-iface eth0.1999 inet dhcp
-vlan-raw-device eth0
