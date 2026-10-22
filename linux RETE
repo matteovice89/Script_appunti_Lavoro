@@ -15,6 +15,7 @@ interface eth0.1999
 noipv6
 ---------------------------------------------------------------------------------
 MODIFICA DHCP
+file dhcpcd.conf sudo nano /etc/dhcpcd.conf
 # Example static IP configuration:
 #interface eth0
 #static ip_address=172.17.12.199/24
