@@ -1,5 +1,5 @@
 -MODIFICA VLAN
-apro con nano (o altri editor) il file etc/network/interfaces
+lancio il comando sudo nano /etc/network/interfaces
 e applico la seguente modifica: 
 source /etc/network/interfaces.d/*
 auto eth0.1999
